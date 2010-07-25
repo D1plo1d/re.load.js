@@ -1,0 +1,20 @@
+/**
+ * re.load.js by Rob Gilson (D1plo1d)
+ *
+ * API:
+ *	re.authorize(string key) -> loads the google jsapi with the given google api 
+ 			key
+ *	re.ready(function f) -> on load callback to f
+ *	re.load(String moduleName, String moduleVersion, Map optionalSettings)
+ *	-> see google.load, a null moduleVersion and optionSettings specifies a url 
+ *	   to dynamic load.
+ *
+ * DO NOT PANIC. EVERYWHERE IS SIMPLE.
+ */
+ 
+ If you have problems make an issue.
+ If you have solutions make a fork.
+ If it's good let me know.
+ If it's a job give me cash.
+ 
+ - D1plo1d
