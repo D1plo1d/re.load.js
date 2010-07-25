@@ -1,17 +1,22 @@
-/**
- * re.load.js by Rob Gilson (D1plo1d)
- *
- * API:
- *	re.authorize(string key) -> loads the google jsapi with the given google api 
+WHAT IT DOES:
+* dynamic loading of local javascript files, or js from any server
+* dynamic loading of google's jsapi with your google api key
+* the basics: loading google javascript api's through jsapi
+* has no external dependencies
+* provides a re.ready event for when all js files have loaded and jQuery is ready (please feel free to mod this for non-jQuery peoples)
+* is free to use in many many ways via the MIT License
+
+This is new, and only Chrome tested so far so feel free to fix it up and i'll merge githubs with patches.
+
+BUT WHO IS APIs:
+re.authorize(string key) -> loads the google jsapi with the given google api 
  			key
- *	re.ready(function f) -> on load callback to f
- *	re.load(String moduleName, String moduleVersion, Map optionalSettings)
- *	-> see google.load, a null moduleVersion and optionSettings specifies a url 
- *	   to dynamic load.
- *
- * DO NOT PANIC. EVERYWHERE IS SIMPLE.
- */
- 
+re.ready(function f) -> on load callback to f
+re.load(String moduleName, String moduleVersion, Map optionalSettings)
+	-> see google.load, a null moduleVersion and optionSettings specifies a url 
+	   to dynamic load.
+
+FURTHERMORE: 
  If you have problems make an issue.
  If you have solutions make a fork.
  If it's good let me know.
